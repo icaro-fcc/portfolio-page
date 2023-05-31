@@ -1,4 +1,117 @@
 body {
-    /* background-color: #333; */
     font-family: 'Roboto', sans-serif;
+}
+
+.bg-primary-color {
+    background-color: #FFF;
+}
+
+.bg-secondary-color {
+    background-color: #ece8ea;
+}
+
+.bg-dark-color {
+    background-color: #050505;
+}
+
+.primary-color {
+    color: #050505;
+}
+
+.secondary-color {
+    color: #7a7a7a;
+}
+
+
+/* NAV BAR */
+
+#navbar {
+    border-bottom: 1px solid #7a7a7a;
+}
+
+#navbar:hover {
+    color: #7a7a7a;
+}
+
+#navbar a.active {
+    border-bottom: 1px solid #050505;
+}
+
+.navbar-brand {
+    display: flex;
+}
+
+.navbar-brand img {
+    width: 45px;
+    height: auto;
+}
+
+.navbar-brand span {
+    font-weight: 700;
+    font-size: 1.5em;
+    margin-left: 0.5em;
+}
+
+#navbar-items .navbar-nav {
+    display: flex;
+    justify-content: center;
+    width: 100%;    
+}
+
+#navbar-items .nav-item {
+    margin: 0 1em;
+}
+
+
+
+/* SLIDER */
+
+#slider {
+    margin-top: 8em;
+    margin-bottom: 1em;
+}
+
+#slider .carousel-caption {
+    margin-bottom: 3em;
+}
+
+#slider .carousel-caption h5 {
+    font-size: 1.8em;
+    text-shadow: #000 2px 2px;
+}
+
+.btn {
+    border: none;
+    border-radius: 2px;
+    background: #CCC5;
+}
+
+#slider .btn {
+    padding: 0.3em 0.8em;
+    font-size: 0.8em;
+    margin-top: 1em;
+}
+
+.carousel-control-prev i,
+.carousel-control-next i {
+    color: #111;
+    font-size: 2.5em;
+}
+
+
+
+@media(min-width: 768px) {
+    #slider .carousel-caption {
+        margin-bottom: 3em;
+    }
+
+    #slider .carousel-caption h5 {
+        font-size: 4em;
+        text-shadow: #000 2px 2px;
+    }
+
+    #slider .btn {
+        font-size: 1.2em;
+    }
+    
 }

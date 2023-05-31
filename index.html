@@ -26,7 +26,7 @@
     <!-- NAVBAR -->
     <nav class="navbar navbar-expand-lg fixed-top bg-primary-color" id="navbar">
         <div class="container py-3">
-            <a href="#" class="navbar-brand">
+            <a href="#" class="navbar-brand .primary-color">
                 <img src="img/home-icon.png" alt="home">
                 <span>Photos Home</span>
             </a>
@@ -48,19 +48,90 @@
                         <a href="#" class="nav-link active" aria-current="page">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link">Projects</a>
+                        <a href="#" class="nav-link .primary-color" >Projects</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link">About us</a>
+                        <a href="#" class="nav-link .primary-color">About us</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link">Contact</a>
+                        <a href="#" class="nav-link .primary-color">Contact</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
 
-    
+    <!-- SLIDER -->
+    <div class="container" id="slider-container">
+        <div class="carousel slide carousel-fade" id="slider" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button
+                    type="button"
+                    class="active"
+                    data-bs-target="#slider"
+                    data-bs-slide-to="0"
+                    aria-current="true"
+                    aria-label="Slide 1"   
+                ></button>
+                <button
+                    type="button"
+                    data-bs-target="#slider"
+                    data-bs-slide-to="1"
+                    aria-label="Slide 2"   
+                ></button>
+                <button
+                    type="button"
+                    data-bs-target="#slider"
+                    data-bs-slide-to="2"
+                    aria-label="Slide 3"   
+                ></button>
+            </div>
+
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/banner-1.jpg" alt="Photo 1" class="d-block w-100">
+                    <div class="carousel-caption">
+                        <h5>Category 1 Example</h5>
+                        <a href="#" class="btn btn-dark">See the Gallery</a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/banner-2.jpg" alt="Photo 2" class="d-block w-100">
+                    <div class="carousel-caption">
+                        <h5>Category 2 Example</h5>
+                        <a href="#" class="btn btn-dark">See the Gallery</a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/banner-3.jpg" alt="Photo 3" class="d-block w-100">
+                    <div class="carousel-caption">
+                        <h5>Category 3 Example</h5>
+                        <a href="#" class="btn btn-dark">See the Gallery</a>
+                    </div>
+                </div>
+            </div>
+
+            <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#slider"
+                data-bs-slide="prev">
+            <i class="bi bi-chevron-compact-left"></i>
+            <span class="visually-hidden">Previous</span>
+            </button>
+
+            <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#slider"
+                data-bs-slide="next">
+            <i class="bi bi-chevron-compact-right"></i>
+            <span class="visually-hidden">Next</span>
+            </button>
+
+
+        </div>
+    </div>
+
 </body>
 </html>
