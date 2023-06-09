@@ -171,7 +171,7 @@ body {
 }
 
 .card .bi {
-    font-size: 3em;
+    font-size: 2em;
     color: var(--bg-dark-color);
 }
 
@@ -261,6 +261,10 @@ body {
 
 
 /* INFO */
+
+#info-container p {
+    text-align: justify;
+}
 
 #info-content {
     margin-bottom: 4em;
